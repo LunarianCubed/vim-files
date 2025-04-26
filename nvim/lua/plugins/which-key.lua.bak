@@ -1,0 +1,44 @@
+--return {
+--  "folke/which-key.nvim",
+--  event = "VeryLazy",
+--  opts = {
+--    plugins = {
+--      marks = true,
+--      registers = true,
+--      spelling = {
+--        enabled = true,
+--        suggestions = 20,
+--      },
+--    },
+--    win = {
+--      border = "rounded",
+--    },
+--    layout = {
+--      align = "center",
+--    },
+--    defaults = {
+--      ignore_missing = true,
+--    },
+--  },
+--  config = function(_, opts)
+--    local wk = require("which-key")
+--    wk.setup(opts)
+--
+--    wk.register({
+--        --["<leader>f"] = { name = "+find" },
+--        --["<leader>s"] = { name = "+split" },
+--        --["<leader>t"] = { name = "+tabs" },
+--        --["<leader>b"] = { name = "+buffer" },
+--        --["<leader>g"] = { name = "+git" },
+--        --["<leader>l"] = { name = "+lsp" },
+--        { "", group = "Find" },
+--        { "", group = "Git" },
+--        { "", group = "LSP" },
+--        { "", group = "Buffer" },
+--        { "", group = "Split" },
+--        { "", group = "Tabs" },
+--        { "", group = "Comment" },
+--    })
+--  end,
+--}
+--
