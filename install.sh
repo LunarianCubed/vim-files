@@ -39,7 +39,7 @@ fi
 
 case "$1" in
     nvim)  
-        install_nvim
+        install_neovim
     ;;
     vim) 
         install_vim
