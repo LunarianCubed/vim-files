@@ -35,6 +35,7 @@ install_vim() {
 
 if [[ $# -ne 1 ]]; then
     usage
+    exit
 fi
 
 case "$1" in
