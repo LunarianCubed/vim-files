@@ -71,6 +71,18 @@ return {
         { name = "cmdline" },
       }),
     })
+
+    cmp.setup.filetype("gitignore", {
+            sources = {
+                { name = "path", option = { 
+                    respect_gitignore = false,
+                    trailing_slash = true,
+                    },
+                    keyword_length = 1,
+                },
+                { name = "buffer" },
+            },
+        })
   end,
 }
 
