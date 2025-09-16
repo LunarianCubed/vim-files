@@ -17,7 +17,7 @@ backup(){
 
 install_neovim() {
     local src_dir="./nvim"
-    local dest_dir="$HOME/.config/nvim/"
+    local dest_dir="$HOME/.config/nvim"
     mkdir -p "$HOME/.config/"
     backup "$dest_dir"
     echo "[INFO] Copying $src_dir -> $dest_dir"
