@@ -6,6 +6,10 @@ local opt = vim.opt
 
 opt.number = true
 opt.relativenumber = false
+opt.list = true
+opt.listchars = {
+    eol = "$",
+}
 
 opt.tabstop = 4
 opt.expandtab = true

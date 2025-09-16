@@ -13,7 +13,6 @@ return {
 
     local lspconfig = require("lspconfig")
 
-    -- 配置语言服务器
     local servers = {
       lua_ls = {
         settings = {
