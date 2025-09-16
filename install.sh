@@ -28,8 +28,8 @@ install_vim() {
     local src_file="./vim/vimrc"
     local dest_file="$HOME/.vimrc"
 
-    backup "$dest_dir"
-    echo "[INFO] Copying $src_dir -> $dest_dir"
+    backup "$dest_file"
+    echo "[INFO] Copying $src_file -> $dest_file"
     cp -r "$src_dir" "dest_dir"
 }
 
