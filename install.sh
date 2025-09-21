@@ -21,7 +21,7 @@ install_neovim() {
     mkdir -p "$HOME/.config/"
     backup "$dest_dir"
     echo "[INFO] Copying $src_dir -> $dest_dir"
-    cp -r "$src_dir" "dest_dir"
+    cp -r "$src_dir" "$dest_dir"
 }
 
 install_vim() {
