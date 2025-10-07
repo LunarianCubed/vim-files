@@ -1,3 +1,4 @@
+# Copying User config -> $CWD 
 #!/bin/bash
 
 USERCONFIG="$HOME/.config/nvim"
